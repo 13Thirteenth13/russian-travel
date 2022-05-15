@@ -6,3 +6,16 @@
   flex-direction: column;
   row-gap: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 93.7%;
+    row-gap: 73px;
+  }
+}
