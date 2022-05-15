@@ -12,3 +12,19 @@
   align-self: end;
   z-index: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 9.2vw;
+    line-height: 1.05;
+    max-width: 73.4%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}
