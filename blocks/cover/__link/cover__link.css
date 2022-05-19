@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 1280px) {
   .cover__link {
-    min-height: 57.6vw;
+    min-height: 57.8vw;
     grid-template-rows: 53.5% 1fr;
     }
 }
