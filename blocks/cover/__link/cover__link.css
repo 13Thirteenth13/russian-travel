@@ -49,14 +49,13 @@
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    min-height: 62.4vw;
+    min-height: 62.6vw;
     grid-template-rows: 55.6% 1fr;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
-    min-height: 62.6vw;
     grid-template-rows: 52.2% 1fr;
     row-gap: 16px;
   }
