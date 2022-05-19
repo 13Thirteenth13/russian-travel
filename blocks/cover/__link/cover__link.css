@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background: #2A2C2F;
   content: '';
   opacity: .3;
   transition: .8s;
@@ -36,14 +36,13 @@
   .cover__link {
     min-height: 57.8vw;
     grid-template-rows: 53.5% 1fr;
-    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
     min-height: 62.5vw;
     grid-template-rows: 54.3% 1fr;
-
   }
 }
 
